@@ -1,5 +1,5 @@
 # Open Source Psychology
-The goal is to use Machine Learning to take in a user's thoughts and feelings, and recommend quotes or ideas from books based on what "disorders" the user may be experiencing
+The goal is to use Machine Learning to take in a user's thoughts and feelings, and recommend quotes or ideas from books based on what "disorders" the user may be experiencing, and then giving them the tools to perform Cognitive Behavioral Therapy on themselves using the resources provided
 
 ## The Motivation
 Everybody is affected by mental health in some way, weather or not it is "diagnosable" according to Psychology literaure is another question. We believe that the way Mental Disorders is viewed in psychology is not condusive to the recovery of everyday undiagnosed sufferers, and also creates a lot of stigma and discrimination for the poeple with labels slapped onto them.
@@ -11,7 +11,7 @@ We believe this is a problem of how the diagnosis process in psychology inherant
 ## The Idea
 The key idea behind OSP is that there is no "catch all" cure to any one mental health issue, and many people are able to recover through reading and relating to situations similar to themselves, as well as being given the relavant reading and reflective material. 
 
-The core assumption that we are making is that reading about people with similar problems will vastly hasten the recovery from problems people have, as well as ease some of their existential burden. We theorize this effect to be strengthened if the user is then given easy-to-consume tidbits of knowledge relavant to combating their issues (Borrowed from Congnitive Behavioral Therapy)
+The core assumption that we are making is that reading about people with similar problems will vastly hasten the recovery from problems people have, as well as ease some of their existential burden. We theorize this effect to be strengthened if the user is then given easy-to-consume tidbits of knowledge relavant to actively combating their issues on a day to day basis (Borrowed from Congnitive Behavioral Therapy)
 
 ## The Solution
 The ML Model created should be able to corelate an app user's experience with the wealth of experiences shared online, and not only diagnose them (without the biases attatched to the literature of Pyschology), but also provide them with, for example short quotes or testimonials that they may relate to based on the ML-diagnosis.
