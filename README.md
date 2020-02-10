@@ -15,9 +15,9 @@ The core assumption that we are making is that reading about people with similar
 
 ## The Solution
 The ML Model created should be able to corelate an app user's experience with the wealth of experiences shared online, and not only diagnose them (without the biases attatched to the literature of Pyschology), but also provide them with, for example short quotes or testimonials that they may relate to based on the ML-diagnosis.
-![Model Breakdown](https://raw.githubusercontent.com/gee842/OpenSourcePsychology/master/interface.jpeg)
+![Model Breakdown](https://raw.githubusercontent.com/gee842/OpenSourcePsychology/master/osp2.PNG)
 
 ## Model Decomposition 
 This will largely rely on large amounts of data-preprocessing, in order to get a useful, clean dataset to make accurate predictions using a simple word-similarity model on the user input. The idea is that with enough high quality data, keywords in writing style can confidently point the user in the right direction.
 
-![Model Breakdown](https://raw.githubusercontent.com/gee842/OpenSourcePsychology/master/index.jpeg)
+![Model Breakdown](https://raw.githubusercontent.com/gee842/OpenSourcePsychology/master/ospui2.png)
