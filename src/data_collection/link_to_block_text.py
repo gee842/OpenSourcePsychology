@@ -47,7 +47,15 @@ def link_to_punctuated_block(link):
     else:
         raise Exception
 
+
+def id_to_punctuated_block(video_id):
+    if video_id != False:
+        block_text = array_to_punctuated_block(YouTubeTranscriptApi.get_transcript(video_id))
+        return block_text
+    else:
+        raise Exception
+
 if __name__ == '__main__':
-    TESTING_LINK = 'https://www.youtube.com/watch?v=9QiE-M1LrZk'
+    TESTING_LINK = 'https://www.youtube.com/watch?v=6sjyTjdX_I4'
     # print(link_to_block(TESTING_LINK))
     print(link_to_punctuated_block(TESTING_LINK))
